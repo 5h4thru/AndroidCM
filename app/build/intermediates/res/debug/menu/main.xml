@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utdallas.dxp141030.contactmanager.MainActivity" >
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@drawable/ic_action_content_add"
+        android:showAsAction="always"
+        android:title="@string/add_new"/>
+
+</menu><!-- From: file:/C:/Users/DurgaSaiPreetham/AndroidStudioProjects/Examples/AndroidCM/app/src/main/res/menu/main.xml -->

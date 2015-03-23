@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/imageViewPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/first_name"
+        android:src="@drawable/ic_action_social_person" />
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imageViewPerson"
+        android:layout_alignTop="@+id/imageViewPerson"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageViewPerson"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imageViewPerson"
+        android:layout_alignTop="@+id/imageViewPerson"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textViewFirstName"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewPerson"
+        android:contentDescription="@string/phone_number"
+        android:src="@drawable/ic_action_communication_phone" />
+
+    <TextView
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imageViewPhoneNumber"
+        android:layout_alignTop="@+id/imageViewPhoneNumber"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageViewPhoneNumber"
+        android:textColor="#4CAF50"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewPhoneNumber"
+        android:contentDescription="@string/email"
+        android:src="@drawable/ic_action_communication_email" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imageViewEmail"
+        android:layout_alignTop="@+id/imageViewEmail"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageViewEmail"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="17sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/DurgaSaiPreetham/AndroidStudioProjects/Examples/AndroidCM/app/src/main/res/layout/list_item.xml -->
